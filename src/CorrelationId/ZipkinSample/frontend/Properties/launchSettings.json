@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "frontend": {
+      "commandName": "Project",
+      "commandLineArgs": "http://*:8081"
+    }
+  }
+}
