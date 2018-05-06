@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CorrelationId", "CorrelationId", "{C88F2EE9-2B2A-4A6F-8BE0-FA0BB1DFA691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCClient", "src\CorrelationId\RPCClient\RPCClient.csproj", "{04DFF507-5F36-4EC1-BDAE-D706961FCB61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPCServer", "src\CorrelationId\RPCServer\RPCServer.csproj", "{8C697113-E08A-4F10-BE6D-9973E5352D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DFF507-5F36-4EC1-BDAE-D706961FCB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DFF507-5F36-4EC1-BDAE-D706961FCB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DFF507-5F36-4EC1-BDAE-D706961FCB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DFF507-5F36-4EC1-BDAE-D706961FCB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C697113-E08A-4F10-BE6D-9973E5352D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C697113-E08A-4F10-BE6D-9973E5352D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C697113-E08A-4F10-BE6D-9973E5352D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C697113-E08A-4F10-BE6D-9973E5352D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04DFF507-5F36-4EC1-BDAE-D706961FCB61} = {C88F2EE9-2B2A-4A6F-8BE0-FA0BB1DFA691}
+		{8C697113-E08A-4F10-BE6D-9973E5352D40} = {C88F2EE9-2B2A-4A6F-8BE0-FA0BB1DFA691}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {178B26DF-B3D3-4A2E-A348-269CE8F9A6EE}
+	EndGlobalSection
+EndGlobal
